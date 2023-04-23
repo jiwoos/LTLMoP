@@ -349,20 +349,25 @@ class HandlerSubsystem:
 
     #     return handler_instance
 
-    def getHandlerInstanceByType(self, handler_type_class):
-        handler_instance = None
-    
-        handler = self.executor.proj.robot_config.getHandlerOfRobot(handler_type_class)
-
-        # handler = self.executor.robot_config.getHandlerOfRobot(handler_type_class)
-        if handler is not None:
-            handler_instance = self.getHandlerInstanceByName(handler.name)
+def getHandlerInstanceByType(self, handler_type_class, robot_name=""):
+    if robot_name == "":
+        if handler_type_class in [ht.SensorHandler, ht.ActuatorHandler]:
+            raise ValueError("A robot name is required when looking for an instance of sensor or actuator handler")
         else:
-            print("Error: Could not find handler of type {} for the robot.".format(handler_type_class))
-            # Handle the error accordingly, for example, by returning None or raising a custom exception
-            # return None
+            robot_config = self.getMainRobot()
+    else:
+        robot_config = self.executing_config.getRobotByName(robot_name)
 
-        return handler_instance
+    handler_of_robot = robot_config.getHandlerOfRobot(handler_type_class)
+    if handler_of_robot is None:
+        raise ValueError("Handler of type '{}' not found in robot config".format(handler_type_class.__name__))
+
+    handler_instance = self.getHandlerInstanceByName(handler_of_robot.name)
+
+    return handler_instance
+
+
+
 
 
 
