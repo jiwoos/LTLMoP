@@ -326,50 +326,28 @@ class HandlerSubsystem:
         # get the main robot config
         return self.executing_config.getRobotByName(self.executing_config.main_robot)
 
-    # def getHandlerInstanceByType(self, handler_type_class, robot_name = ""):
-    #     """
-    #     Return the handler instance of the given handler type
-    #     When no robot_name is given, the handler is assumed to be of the main robot
-    #     When the handler type is either sensor or actuator, a robot_name is required
-    #     Return None if the handler instance cannot be found
-    #     """
-    #     if robot_name == "":
-    #         # no robot is specified
-    #         if handler_type_class in [ht.SensorHandler, ht.ActuatorHandler]:
-    #             raise ValueError("A robot name is required when looking for instance of sensor or actuator handler")
-    #         else:
-    #             # we assume it is asking for the handler of main robot
-    #             robot_config = self.getMainRobot()
-    #     else:
-    #         # find the robot config of the given name
-    #         robot_config = self.executing_config.getRobotByName(robot_name)
-
-    #     # now look for the handler instance of the given type
-    #     handler_instance = self.getHandlerInstanceByName(robot_config.getHandlerOfRobot(handler_type_class).name)
-
-    #     return handler_instance
-
-def getHandlerInstanceByType(self, handler_type_class, robot_name=""):
-    if robot_name == "":
-        if handler_type_class in [ht.SensorHandler, ht.ActuatorHandler]:
-            raise ValueError("A robot name is required when looking for an instance of sensor or actuator handler")
+    def getHandlerInstanceByType(self, handler_type_class, robot_name = ""):
+        """
+        Return the handler instance of the given handler type
+        When no robot_name is given, the handler is assumed to be of the main robot
+        When the handler type is either sensor or actuator, a robot_name is required
+        Return None if the handler instance cannot be found
+        """
+        if robot_name == "":
+            # no robot is specified
+            if handler_type_class in [ht.SensorHandler, ht.ActuatorHandler]:
+                raise ValueError("A robot name is required when looking for instance of sensor or actuator handler")
+            else:
+                # we assume it is asking for the handler of main robot
+                robot_config = self.getMainRobot()
         else:
-            robot_config = self.getMainRobot()
-    else:
-        robot_config = self.executing_config.getRobotByName(robot_name)
+            # find the robot config of the given name
+            robot_config = self.executing_config.getRobotByName(robot_name)
 
-    handler_of_robot = robot_config.getHandlerOfRobot(handler_type_class)
-    if handler_of_robot is None:
-        raise ValueError("Handler of type '{}' not found in robot config".format(handler_type_class.__name__))
+        # now look for the handler instance of the given type
+        handler_instance = self.getHandlerInstanceByName(robot_config.getHandlerOfRobot(handler_type_class).name)
 
-    handler_instance = self.getHandlerInstanceByName(handler_of_robot.name)
-
-    return handler_instance
-
-
-
-
-
+        return handler_instance
 
     def setVelocity(self, x, y):
         """
@@ -424,8 +402,6 @@ def getHandlerInstanceByType(self, handler_type_class, robot_name=""):
             raise ValueError("Cannot get current pose, because no pose handler instance is found for the main robot")
 
         return pose_handler_instance.getPose(cached)
-
-
 
     def getDefaultPropMapping(self, sensor_prop_list, actuator_prop_list):
         """

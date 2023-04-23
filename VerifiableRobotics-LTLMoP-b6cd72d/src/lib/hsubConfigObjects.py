@@ -374,7 +374,6 @@ class HandlerConfig(object):
         If onlyLoadInit is True, only the info of __init__ method will be loaded
         If over_write_h_type is given, then over write the handler type with it
         """
-        print(handler_module_path)
         # load the handler class first
         name, h_type, handler_class = self.loadHandlerClass(handler_module_path)
 
