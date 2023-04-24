@@ -199,12 +199,12 @@ class SensorEditorFrame(wx.Frame):
         except:
             dc = pdc
 
-        dc.BeginDrawing()
+        # dc.BeginDrawing()
 
         # Draw background
         dc.DrawBitmap(self.map_bitmaps[panel_key], 0, 0)
 
-        dc.EndDrawing()
+        # dc.EndDrawing()
 
         event.Skip()
 

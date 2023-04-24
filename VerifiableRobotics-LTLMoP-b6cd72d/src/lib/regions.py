@@ -557,7 +557,7 @@ class Region(object):
     
         if self.type == reg_POLY:    
             # Shift our vertices to align with the new bounding box
-            self.pointArray = map(lambda x: x-Point(topLeftX, topLeftY), self.pointArray)
+            self.pointArray = map(lambda x: Point(x.x - topLeftX, x.y - topLeftY), self.pointArray)
             # Shift holes vertices to align with the new bounding box
             for i,hole in enumerate(self.holeList):
                 self.holeList[i] =  map(lambda x: x-Point(topLeftX, topLeftY),self.holeList[i])
