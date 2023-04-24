@@ -954,7 +954,7 @@ class DrawingFrame(wx.Frame):
 
         curDir = os.getcwd()
         fileName = wx.FileSelector("Open File", default_extension="regions",
-                                  flags = wx.OPEN | wx.FILE_MUST_EXIST)
+                                  flags = wx.FD_OPEN | wx.FD_FILE_MUST_EXIST)
         if fileName == "": return
         fileName = os.path.join(os.getcwd(), fileName)
         os.chdir(curDir)
@@ -1659,7 +1659,8 @@ class DrawingFrame(wx.Frame):
         if obj.type == reg_POLY:
             for index, pt in enumerate(obj.getPoints()):
                 if pt == oldPt:
-                    obj.pointArray[index] = obj.pointArray[index] + (newPt - oldPt)
+                    # obj.pointArray[index] = obj.pointArray[index] + (newPt - oldPt)
+                    obj.pointArray[index] = Point(obj.pointArray[index].x + newPt.x - oldPt.x, obj.pointArray[index].y + newPt.y - oldPt.y)
                     break
 
             obj.recalcBoundingBox()
