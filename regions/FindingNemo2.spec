@@ -21,7 +21,7 @@ tutorial
 Customs: # List of custom propositions
 
 RegionFile: # Relative path of region description file
-FindingNemo.regions
+FindingNemo2.regions
 
 Sensors: # List of sensor propositions and their state (enabled = 1, disabled = 0)
 
@@ -29,5 +29,5 @@ Sensors: # List of sensor propositions and their state (enabled = 1, disabled = 
 ======== SPECIFICATION ========
 
 Spec: # Specification in structured English
-go to r2
+go to r4
 

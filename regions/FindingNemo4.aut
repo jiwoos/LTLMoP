@@ -1,0 +1,78 @@
+
+
+State 0 with rank 0 -> <bit0:0, bit1:0, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 1
+State 1 with rank 0 -> <bit0:0, bit1:0, bit2:1, bit3:0, bit4:1, bit5:0>
+	With successors : 2
+State 2 with rank 0 -> <bit0:1, bit1:0, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 3
+State 3 with rank 0 -> <bit0:0, bit1:0, bit2:1, bit3:1, bit4:0, bit5:0>
+	With successors : 4
+State 4 with rank 0 -> <bit0:0, bit1:1, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 4
+State 5 with rank 0 -> <bit0:0, bit1:0, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 6
+State 6 with rank 0 -> <bit0:0, bit1:1, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 2
+State 7 with rank 0 -> <bit0:0, bit1:0, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 8
+State 8 with rank 0 -> <bit0:0, bit1:1, bit2:1, bit3:1, bit4:0, bit5:1>
+	With successors : 4
+State 9 with rank 0 -> <bit0:0, bit1:0, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 10
+State 10 with rank 0 -> <bit0:0, bit1:0, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 3
+State 11 with rank 0 -> <bit0:0, bit1:0, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 4
+State 12 with rank 0 -> <bit0:0, bit1:0, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 3
+State 13 with rank 0 -> <bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 14
+State 14 with rank 0 -> <bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:1>
+	With successors : 15
+State 15 with rank 0 -> <bit0:0, bit1:0, bit2:1, bit3:1, bit4:0, bit5:1>
+	With successors : 4
+State 16 with rank 0 -> <bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 4
+State 17 with rank 0 -> <bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 16
+State 18 with rank 0 -> <bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 11
+State 19 with rank 0 -> <bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:0>
+	With successors : 14
+State 20 with rank 0 -> <bit0:0, bit1:1, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 15
+State 21 with rank 0 -> <bit0:0, bit1:1, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 22
+State 22 with rank 0 -> <bit0:1, bit1:0, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 4
+State 23 with rank 0 -> <bit0:0, bit1:1, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 7
+State 24 with rank 0 -> <bit0:0, bit1:1, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 9
+State 25 with rank 0 -> <bit0:0, bit1:1, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 26
+State 26 with rank 0 -> <bit0:0, bit1:1, bit2:1, bit3:1, bit4:1, bit5:0>
+	With successors : 4
+State 27 with rank 0 -> <bit0:0, bit1:1, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 18
+State 28 with rank 0 -> <bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 29
+State 29 with rank 0 -> <bit0:0, bit1:1, bit2:1, bit3:1, bit4:0, bit5:0>
+	With successors : 2
+State 30 with rank 0 -> <bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 19
+State 31 with rank 0 -> <bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:0>
+	With successors : 32
+State 32 with rank 0 -> <bit0:0, bit1:1, bit2:1, bit3:1, bit4:1, bit5:1>
+	With successors : 10
+State 33 with rank 0 -> <bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 0
+State 34 with rank 0 -> <bit0:1, bit1:0, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 3
+State 35 with rank 0 -> <bit0:1, bit1:0, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 22
+State 36 with rank 0 -> <bit0:1, bit1:0, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 21
+
+
