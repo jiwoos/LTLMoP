@@ -14,7 +14,7 @@ Here are some of the main updates we have made to the LTLMoP toolkit:
 - Bug fixes: We have identified and resolved several issues that were causing the original LTLMoP toolkit to be non-functional. Our updates have restored the toolkit's functionality, making it suitable for practical use.
 
 ### Installation and Usage
-To install and use the updated LTLMoP toolkit in a Python 2 environment, please follow the instructions provided in the INSTALL.md file. This file contains comprehensive guidelines for setting up the toolkit in your environment and resolving any potential dependency issues.
+To install and use the updated LTLMoP toolkit in a Python 2 environment, please follow the instructions provided in the [INSTALL.md](INSTALL.md) file. This file contains comprehensive guidelines for setting up the toolkit in your environment and resolving any potential dependency issues.
 
 ### Contributing
 We welcome contributions from the community to further improve and expand the capabilities of this updated LTLMoP toolkit. If you would like to contribute, please follow the standard process for submitting pull requests on GitHub. Additionally, if you encounter any issues or have suggestions for improvements, please open an issue in the repository.
