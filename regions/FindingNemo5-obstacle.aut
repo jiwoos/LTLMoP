@@ -1,0 +1,410 @@
+
+
+State 0 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 1, 2
+State 1 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 5, 6
+State 2 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 3, 4
+State 3 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 1, 2
+State 4 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 3, 4
+State 5 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 9, 10
+State 6 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 7, 8
+State 7 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 5, 6
+State 8 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 7, 8
+State 9 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 13, 14
+State 10 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 11, 12
+State 11 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 9, 10
+State 12 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 11, 12
+State 13 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:1>
+	With successors : 17, 18
+State 14 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:1>
+	With successors : 15, 16
+State 15 with rank 1 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:1>
+	With successors : 17, 18
+State 16 with rank 1 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:1>
+	With successors : 15, 16
+State 17 with rank 1 -> <nemo_detect:0, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 19, 20
+State 18 with rank 1 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:1>
+	With successors : 15, 16
+State 19 with rank 1 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 23, 24
+State 20 with rank 1 -> <nemo_detect:1, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 21, 22
+State 21 with rank 1 -> <nemo_detect:0, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 19, 20
+State 22 with rank 1 -> <nemo_detect:1, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 21, 22
+State 23 with rank 1 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 27, 28
+State 24 with rank 1 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 25, 26
+State 25 with rank 1 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 23, 24
+State 26 with rank 1 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 25, 26
+State 27 with rank 1 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 31, 32
+State 28 with rank 1 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 29, 30
+State 29 with rank 2 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 31, 32
+State 30 with rank 2 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 29, 30
+State 31 with rank 2 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 33, 34
+State 32 with rank 2 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 29, 30
+State 33 with rank 2 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 37, 38
+State 34 with rank 2 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 35, 36
+State 35 with rank 3 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 37, 38
+State 36 with rank 3 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 35, 36
+State 37 with rank 3 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 39, 40
+State 38 with rank 3 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 35, 36
+State 39 with rank 3 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 43, 44
+State 40 with rank 3 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 41, 42
+State 41 with rank 3 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 39, 40
+State 42 with rank 3 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 41, 42
+State 43 with rank 3 -> <nemo_detect:0, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 47, 48
+State 44 with rank 3 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 45, 46
+State 45 with rank 3 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 43, 44
+State 46 with rank 3 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 45, 46
+State 47 with rank 3 -> <nemo_detect:0, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 9, 51
+State 48 with rank 3 -> <nemo_detect:1, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 49, 50
+State 49 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 9, 51
+State 50 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 49, 50
+State 51 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 49, 50
+State 52 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 0, 53
+State 53 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 54, 55
+State 54 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 0, 53
+State 55 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 54, 55
+State 56 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 52, 57
+State 57 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 58, 59
+State 58 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 52, 57
+State 59 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 58, 59
+State 60 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 61, 62
+State 61 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 5, 65
+State 62 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 63, 64
+State 63 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 61, 62
+State 64 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 63, 64
+State 65 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 66, 67
+State 66 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 5, 65
+State 67 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 66, 67
+State 68 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 5, 69
+State 69 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 70, 71
+State 70 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 5, 69
+State 71 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 70, 71
+State 72 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 73, 74
+State 73 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 77, 78
+State 74 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 75, 76
+State 75 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 73, 74
+State 76 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 75, 76
+State 77 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 61, 81
+State 78 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 79, 80
+State 79 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 77, 78
+State 80 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 79, 80
+State 81 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 82, 83
+State 82 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 61, 81
+State 83 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 82, 83
+State 84 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 9, 85
+State 85 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 86, 87
+State 86 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 9, 85
+State 87 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 86, 87
+State 88 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:1, bit5:0>
+	With successors : 89, 90
+State 89 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:1, bit4:0, bit5:1>
+	With successors : 93, 94
+State 90 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:1, bit5:0>
+	With successors : 91, 92
+State 91 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:1, bit5:0>
+	With successors : 89, 90
+State 92 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:1, bit5:0>
+	With successors : 91, 92
+State 93 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:0>
+	With successors : 97, 98
+State 94 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:0>
+	With successors : 95, 96
+State 95 with rank 1 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:0>
+	With successors : 97, 98
+State 96 with rank 1 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:0>
+	With successors : 95, 96
+State 97 with rank 1 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:1>
+	With successors : 17, 18
+State 98 with rank 1 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:1, bit4:1, bit5:0>
+	With successors : 95, 96
+State 99 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 88, 100
+State 100 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 101, 102
+State 101 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 88, 100
+State 102 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 101, 102
+State 103 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:1, bit4:0, bit5:0>
+	With successors : 89, 104
+State 104 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:1, bit4:0, bit5:0>
+	With successors : 105, 106
+State 105 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:1, bit4:0, bit5:0>
+	With successors : 89, 104
+State 106 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:1, bit4:0, bit5:0>
+	With successors : 105, 106
+State 107 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 108, 109
+State 108 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 112, 113
+State 109 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 110, 111
+State 110 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 108, 109
+State 111 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 110, 111
+State 112 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:1, bit4:0, bit5:0>
+	With successors : 116, 117
+State 113 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:1, bit4:0, bit5:0>
+	With successors : 114, 115
+State 114 with rank 1 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:1, bit4:0, bit5:0>
+	With successors : 116, 117
+State 115 with rank 1 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:1, bit4:0, bit5:0>
+	With successors : 114, 115
+State 116 with rank 1 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 118, 119
+State 117 with rank 1 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:1, bit4:0, bit5:0>
+	With successors : 114, 115
+State 118 with rank 1 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:0>
+	With successors : 122, 123
+State 119 with rank 1 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 120, 121
+State 120 with rank 1 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 118, 119
+State 121 with rank 1 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:0, bit4:0, bit5:1>
+	With successors : 120, 121
+State 122 with rank 1 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 23, 126
+State 123 with rank 1 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:0>
+	With successors : 124, 125
+State 124 with rank 1 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:0>
+	With successors : 122, 123
+State 125 with rank 1 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:0>
+	With successors : 124, 125
+State 126 with rank 1 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 127, 128
+State 127 with rank 1 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 23, 126
+State 128 with rank 1 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 127, 128
+State 129 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 130, 131
+State 130 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 134, 135
+State 131 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 132, 133
+State 132 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 130, 131
+State 133 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:0, bit4:1, bit5:0>
+	With successors : 132, 133
+State 134 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 60, 138
+State 135 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 136, 137
+State 136 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 134, 135
+State 137 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 136, 137
+State 138 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 139, 140
+State 139 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 60, 138
+State 140 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:1, bit4:1, bit5:0>
+	With successors : 139, 140
+State 141 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 9, 142
+State 142 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 143, 144
+State 143 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 9, 142
+State 144 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 143, 144
+State 145 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 77, 146
+State 146 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 147, 148
+State 147 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 77, 146
+State 148 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 147, 148
+State 149 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 61, 150
+State 150 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 151, 152
+State 151 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 61, 150
+State 152 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 151, 152
+State 153 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:1, bit4:0, bit5:1>
+	With successors : 154, 155
+State 154 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 61, 158
+State 155 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:1, bit4:0, bit5:1>
+	With successors : 156, 157
+State 156 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:1, bit4:0, bit5:1>
+	With successors : 154, 155
+State 157 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:1, bit4:0, bit5:1>
+	With successors : 156, 157
+State 158 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 159, 160
+State 159 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 61, 158
+State 160 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:0, bit4:1, bit5:1>
+	With successors : 159, 160
+State 161 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:1, bit4:1, bit5:0>
+	With successors : 112, 113
+State 162 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:1, bit4:1, bit5:1>
+	With successors : 9, 163
+State 163 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:1, bit4:1, bit5:1>
+	With successors : 164, 165
+State 164 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:1, bit4:1, bit5:1>
+	With successors : 9, 163
+State 165 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:1, bit4:1, bit5:1>
+	With successors : 164, 165
+State 166 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:1, bit4:0, bit5:1>
+	With successors : 93, 94
+State 167 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 112, 113
+State 168 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:1, bit4:1, bit5:0>
+	With successors : 112, 113
+State 169 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:0, bit2:1, bit3:1, bit4:0, bit5:1>
+	With successors : 166, 170
+State 170 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:0, bit2:1, bit3:1, bit4:0, bit5:1>
+	With successors : 166, 170
+State 171 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 167, 172
+State 172 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 167, 172
+State 173 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:0, bit1:1, bit2:1, bit3:1, bit4:1, bit5:0>
+	With successors : 168, 174
+State 174 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:0, bit1:1, bit2:1, bit3:1, bit4:1, bit5:0>
+	With successors : 168, 174
+State 175 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 5, 176
+State 176 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 177, 178
+State 177 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 5, 176
+State 178 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:0, bit4:0, bit5:0>
+	With successors : 177, 178
+State 179 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 153, 180
+State 180 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 181, 182
+State 181 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 153, 180
+State 182 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:0, bit4:1, bit5:1>
+	With successors : 181, 182
+State 183 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 9, 184
+State 184 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 185, 186
+State 185 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 9, 184
+State 186 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:1, bit4:0, bit5:0>
+	With successors : 185, 186
+State 187 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 112, 113
+State 188 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 13, 14
+State 189 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 112, 113
+State 190 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 13, 14
+State 191 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 189, 192
+State 192 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:1, bit4:0, bit5:1>
+	With successors : 189, 192
+State 193 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:1, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 190, 194
+State 194 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:1, bit1:0, bit2:0, bit3:1, bit4:1, bit5:1>
+	With successors : 190, 194
+State 195 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:1, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 56, 196
+State 196 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:1, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 197, 198
+State 197 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:1, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 56, 196
+State 198 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:1, bit1:0, bit2:1, bit3:0, bit4:0, bit5:0>
+	With successors : 197, 198
+State 199 with rank 0 -> <nemo_detect:0, camera_turn_on:0, bit0:1, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 183, 200
+State 200 with rank 0 -> <nemo_detect:1, camera_turn_on:0, bit0:1, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 201, 202
+State 201 with rank 0 -> <nemo_detect:0, camera_turn_on:1, bit0:1, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 183, 200
+State 202 with rank 0 -> <nemo_detect:1, camera_turn_on:1, bit0:1, bit1:0, bit2:1, bit3:0, bit4:0, bit5:1>
+	With successors : 201, 202
+
+

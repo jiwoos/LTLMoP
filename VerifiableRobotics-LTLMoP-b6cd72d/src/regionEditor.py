@@ -2000,7 +2000,8 @@ class EditRegionDialog(wx.Dialog):
         """ Copy the properties from the dialog box into the given text object.
         """
         obj.name = self.textCtrl.GetValue()
-        obj.color = Color(*self.colorPicker.GetColour())
+        r, g, b, a = self.colorPicker.GetColour()
+        obj.color = Color(r, g, b)
         obj.isObstacle = self.checkbox_obstacle.GetValue()
         obj.height = float(self.textCtrl2.GetValue())
 

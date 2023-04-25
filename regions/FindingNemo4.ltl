@@ -11,7 +11,10 @@ LTLSPEC -- Assumptions
 
 LTLSPEC -- Guarantees
 	(
-			 []<>( ((!s.bit0 & s.bit1 & !s.bit2 & !s.bit3 & !s.bit4 & !s.bit5))) 
+			 []<>( ((!s.bit0 & s.bit1 & !s.bit2 & !s.bit3 & !s.bit4 & !s.bit5))) & 
+			 []<>( ((s.bit0 & !s.bit1 & !s.bit2 & !s.bit3 & s.bit4 & !s.bit5))) & 
+			 []<>( ((s.bit0 & !s.bit1 & !s.bit2 & !s.bit3 & !s.bit4 & s.bit5))) & 
+			 []<>( ((!s.bit0 & s.bit1 & s.bit2 & s.bit3 & s.bit4 & s.bit5))) 
 
 &
 			( (!s.bit0 & !s.bit1 & !s.bit2 & !s.bit3 & !s.bit4 & !s.bit5) 

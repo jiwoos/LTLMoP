@@ -5,6 +5,7 @@
 ======== SETTINGS ========
 
 Actions: # List of action propositions and their state (enabled = 1, disabled = 0)
+camera_turn_on, 1
 
 CompileOptions:
 convexify: True
@@ -21,31 +22,35 @@ tutorial
 Customs: # List of custom propositions
 
 RegionFile: # Relative path of region description file
-FindingNemo4.regions
+FindingNemo5-obstacle.regions
 
 Sensors: # List of sensor propositions and their state (enabled = 1, disabled = 0)
+nemo_detect, 1
 
 
 ======== SPECIFICATION ========
 
 RegionMapping: # Mapping between region names and their decomposed counterparts
-r4 = p8
-r5 = p7
-r6 = p6
-r7 = p5
-r12 = p11
-r2 = p10
-r10 = p13
-r11 = p12
-r3 = p9
-r8 = p4
-r9 = p3
-others = p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25, p26, p27, p28, p29, p30, p31, p32, p33, p34, p35, p36, p37, p38, p39
-r1 = p14
+r12 = p23
+r2 = p13
+r5 = p31, p32
+r3 = p12
+r8 = p7
+r6 = p60, p61, p62
+r9 = p6
+r7 = p8
+others = p1, p2, p37, p38, p39, p40, p41, p42, p43, p44, p45, p46, p47, p48, p49, p50, p51, p52, p53, p54, p55, p56, p57, p58, p59
+r11 = p24
+r10 = p25
+r4 = p11
+r1 = p28, p29, p30
 
 Spec: # Specification in structured English
-go to r1
-go to r3
-go to r4
-go to r8
+if not camera_turn_on then go to r1
+if not camera_turn_on then go to r3
+if not camera_turn_on then go to r5
+if not camera_turn_on then go to r8
+
+if nemo_detect then do camera_turn_on
+if not nemo_detect then do not camera_turn_on
 
