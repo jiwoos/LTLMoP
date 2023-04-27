@@ -4,7 +4,7 @@
 ### Introduction
 This repository contains a functional and updated version of the original LTLMoP (Linear Temporal Logic MissiOn Planner) toolkit, which can be found at https://ltlmop.github.io/. The original LTLMoP toolkit was an influential and widely-used tool for mission and motion planning using Linear Temporal Logic (LTL). However, over time, the original repository faced challenges due to its reliance on Python 2 and deprecated packages.
 
-Our goal with this project is to revive the LTLMoP toolkit by addressing the compatibility issues, updating dependencies, and ensuring its functionality in Python 2 environments. We have made significant efforts to bring this valuable tool back to life and make it accessible to researchers and practitioners in the field of robotics and planning.
+Our goal with this project is to revive the LTLMoP toolkit by addressing the compatibility issues, updating dependencies, and ensuring its functionality in Python 2 environments. We have made efforts to bring this valuable tool back to life and make it accessible to researchers and practitioners in the field of robotics and planning.
 
 ### Key Updates
 Here are some of the main updates we have made to the LTLMoP toolkit:
